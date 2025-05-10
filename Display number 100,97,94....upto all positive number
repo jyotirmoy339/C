@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+    int n,a;
+    a=100;
+    for(int i=1;i<=n;i++)
+    {
+        if(a>0)
+        printf("%d\n",a);
+        a=a-3;
+    }
+    return 0;
+
+}
